@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    background: url(./images/pattern-background-desktop.svg) no-repeat;
+    overflow-x: hidden;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+    width:375px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    background-color: white;
+    height: 550px;
+    border-radius: 20px;
+}
+.hero{
+    background: url(./images/illustration-hero.svg) no-repeat;
+    height: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.summary{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-top: -80px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(224, 47%, 30%);
+    border: 0px;
+    margin: 30px;
+    box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+}
+button:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+button a{
+    color: white;
+}
+.plan{
+    display: flex;
+    background-color: hsl(225, 100%, 98%);
+    width: 300px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 0 30px;
+    height: 55px;
+}
+.plan img{
+    padding: 10px;
+}
+.plan b{
+    margin-top: 8px;
+}
+.plan p{
+    margin-top: 30px;
+    margin-left: -90px;
+}
+.plan a{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 375px){
+    body{
+        max-width: 375px;
+        background: url(./images/pattern-background-mobile.svg);
+        overflow: hidden;
+        background-color: hsl(225, 100%, 94%);
+    }
+    .container{
+       max-width: 375px; 
+       box-sizing: border-box;
+    }
+}
