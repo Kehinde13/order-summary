@@ -51,12 +51,14 @@ button a{
     border-radius: 10px;
     margin: 0 30px;
     height: 55px;
+    Padding: 10px;
 }
 .plan img{
     padding: 10px;
 }
 .plan b{
     margin-top: 8px;
+    margin-bottom: 5px;
 }
 .plan p{
     margin-top: 30px;
